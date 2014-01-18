@@ -7,6 +7,9 @@ class Server
 public:
     Server();
     ~Server();
+
+protected:
+    
 };
 
 #endif
