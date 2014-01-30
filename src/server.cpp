@@ -1,5 +1,7 @@
 #include "server.h"
 
+const int PORT = 6666;
+
 Server::Server() : sockfd(0)
 {
     //accept client connections here

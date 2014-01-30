@@ -14,7 +14,7 @@ public:
     ~Client();
     void connect();
 protected:
-    
+    int sockfd;
 };
 
 #endif
