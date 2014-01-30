@@ -17,6 +17,26 @@ Server::Server() : sockfd(0)
     //we need to fork to accept more clients
     while(1)
     {
+	int i = fork();
+	switch(i)
+	{
+	case 0:
+	{
+	    //we have a child
+	    break;
+	}
+	case -1:
+	{
+	    
+	    break;
+	}
+	default:
+	{
+	    break;
+	}
+
+	}
+
     }
 }
 
