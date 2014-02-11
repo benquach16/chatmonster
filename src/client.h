@@ -13,6 +13,7 @@ using namespace std;
 class Client
 {
 public:
+    static int id;
     Client();
     ~Client();
     void connect();
@@ -20,7 +21,6 @@ public:
     
 protected:
     int sockfd;
-    
 private:
     bool logincheck(string username, string password, string temp);
 };

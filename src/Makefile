@@ -16,4 +16,4 @@ server: server.cpp
 	$(GCC) -c server.cpp
 
 clean:
-	rm -f *.o *.out
+	rm -f *.o *.out client server

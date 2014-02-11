@@ -11,6 +11,11 @@
 
 using namespace std;
 
+struct Account
+{
+    int id;
+    string name, string pwd;
+};
 
 class Server
 {
@@ -22,6 +27,8 @@ public:
 protected:
     //save the file descriptor
     int sockfd;
+    //save the ID of the currently connected client
+    int currentClient;
     //account names are saved here
     map<string, string> accounts;
 };
