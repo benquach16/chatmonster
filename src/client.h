@@ -21,7 +21,7 @@ public:
     
 protected:
     int sockfd;
-private:
+
     bool logincheck(string username, string password, string temp);
 };
 

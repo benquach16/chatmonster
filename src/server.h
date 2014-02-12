@@ -27,6 +27,7 @@ public:
 protected:
     //save the file descriptor
     int sockfd;
+    int newfd;
     //save the ID of the currently connected client
     int currentClient;
     //account names are saved here
